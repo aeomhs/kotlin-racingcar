@@ -11,6 +11,8 @@ class PersonKoTest: StringSpec({
         val people = listOf(
             Person("엄현식", 10, nickname = "tim.aeom"),
 
+
+
             Person(
                 name = "엄현식", age = 10, nickname = "tim.aeom")
 
