@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 class PersonTest {
 
     @Test
-    fun `이름 붙인 인자`(     ) {
+    fun `이름 붙인 인자`() {
         val people = listOf(
             Person("엄현식", 10, nickname = "tim.aeom"),
             Person(name = "엄현식", age = 10, nickname = "tim.aeom")
